@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container pt-4">
         <!-- header part -->
-        <nav class="navbar navbar-expand-lg mt-3">
+        <nav class="navbar fixed-top bg-white navbar-expand-lg mb-5">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt=""></a>
@@ -36,7 +36,7 @@
                             <a class="nav-link active" href="#">Link</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Product</a>
+                            <a class="nav-link active" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">About Us</a>
@@ -50,7 +50,7 @@
         </nav>
         <!-- header part end -->
         <!-- banner part -->
-        <section class="mt-5">
+        <section class="mt-5 pt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner border rounded " style="background-color: #FEEAE9;">
                     <div class="carousel-item active p-3">
@@ -113,7 +113,7 @@
         </section>
         <!-- banner part end -->
     </header>
-    <main class="">
+    <main id="product">
         <!-- Categories part -->
         <section class="">
             <div class="container text-center">
@@ -237,8 +237,28 @@
             </div>
         </section>
         <!-- Backpack part end  -->
-
     </main>
+    <div class="main_footer">
+        <!--Main footer part -->
+        <footer class="container my-5">
+            <div class="container rounded" style="background-color: #FEEAE9; height: 455px; padding-top: 147px;">
+                <div class="text-center">
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p>Get updates on sales specials and more</p>
+                    <div class="d-flex justify-content-center">
+                        <form class="d-flex " style="width: 683px; height: 73px;" role="search">
+                            <input class="form-control border border-end-0 rounded-0 rounded-start pe-auto"
+                                type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn border border-start-0 rounded-0 rounded-end bg-white" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Main footer end  -->
+    </div>
+
 
 
 
